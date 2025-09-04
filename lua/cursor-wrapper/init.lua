@@ -1,6 +1,6 @@
 local M = {}
 
-local C = require("cursor-wrapper.config")
+local config = require("cursor-wrapper.config")
 
 function M.setup(opts)
     opts = opts or {}
